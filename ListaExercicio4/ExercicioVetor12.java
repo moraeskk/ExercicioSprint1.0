@@ -13,12 +13,12 @@ public class ExercicioVetor12 {
         System.out.println("Digite um numero");
         numeroprimo = input.nextInt();
 
-        for (int i = 1; i < numeroprimo; i++) {
+        for (int i = 1; i <= numeroprimo; i++) {
             if (numeroprimo % i == 0) {
                 divisores++;
             }
         }
-        if (divisores ==2){
+        if (divisores ==2 ){
             System.out.println("O número é primo . ");
         }else{
             System.out.println("O número não é primo. ");
